@@ -2,11 +2,38 @@
     padding:none;
     margin: none;
 }
-#body{
+body{
     background-color: black;
     color: aliceblue;
 }
+
+#msg{
+    margin-bottom: 200px;
+    align-self: center;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+  }
+  
 #container{
     display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
     
+}
+
+.img{
+    transition: transform .7s ease-in-out;
+    width:100px;
+    height: 100px;
+}
+
+.s{
+    text-align: center;
+}
+.routing{
+    
+    /* background-color: grey; */
 }
