@@ -12,7 +12,7 @@ app.get("/contact",(req,res)=>{
 })
 
 app.get("/project",(req,res)=>{
-    res.render("projec");
+    res.render("project");
 })
 
 app.listen(3000,()=>{
